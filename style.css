@@ -30,18 +30,19 @@ body{
 }
 
 .hand{
-    width: 50%;
+    width: 40%;
     background:#000;
     position: absolute;
     top:50%;
+    left: 10%;
     transform-origin: 100%;
-    transform:rotate(90deg);
+    transform: rotate(90deg);
     transition: all 0.5s;
     transition-timing-function: cubic-bezier(0.1,2.7,0.58,1);
-    -webkit-transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -ms-transform:rotate(90deg);
-    -o-transform:rotate(90deg);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 
 .hour-hand{
@@ -60,52 +61,61 @@ body{
     transform: translate(-50%, -50%);
 }
 .number1{
-    top:20%;
-    left: 85%;
-
+    top: 12%;
+    left: 75%;
 }
 
 .number2{
-    top: 35%;
-    left: 92%;
+    top: 28%;
+    left: 90%;
 }
+
 .number3{
     top: 50%;
-    left: 97%;
+    left: 98%;
 }
+
 .number4{
-    top: 65%;
-    left: 92%;
+    top: 74%;
+    left: 90%;
 }
+
 .number5{
-    top: 80%;
-    left: 85%;
+    top: 88%;
+    left: 75%;
 }
+
 .number6{
-    top: 95%;
+    top: 98%;
     left: 50%;
 }
+
 .number7{
-    top: 80%;
-    left: 15%;
+    top: 88%;
+    left: 25%;
 }
+
 .number8{
-    top: 65%;
-    left: 8%;
+    top: 74%;
+    left: 10%;
 }
+
 .number9{
     top: 50%;
     left: 3%;
 }
+
 .number10{
-    top: 35%;
-    left: 8%;
+    top: 28%;
+    left: 10%;
 }
+
 .number11{
-    top: 20%;
-    left: 15%;
+    top: 12%;
+    left: 25%;
 }
+
 .number12{
-    top: 5%;
+    top: 2%;
     left: 50%;
 }
